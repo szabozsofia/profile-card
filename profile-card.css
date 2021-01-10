@@ -1,0 +1,54 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(60,70%,50%,.8);  
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+}
+.head, .content {
+  background: reen;
+}
+.profile-image, name-headline, .about, .links {
+  background: urple;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 1px;
+  background-color: #666;
+}
+.profile-image {
+  margin-top: -60px;
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+ 
