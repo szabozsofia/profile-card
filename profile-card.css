@@ -19,13 +19,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #444;
-}
-.head, .content {
-  background: reen;
-}
-.profile-image, name-headline, .about, .links {
-  background: urple;
+  background-color: #444; 
+  font-family: Raleway;
+  color: rgba(0,0,0,.7);
 }
 .head, .links {
   text-align: center;
@@ -35,8 +31,8 @@ body {
   margin: 0 auto;
 }
 img {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   border-radius: 10px;
   padding: 1px;
   background-color: #666;
@@ -45,10 +41,41 @@ img {
   margin-top: -60px;
 }
 .head, .about {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .content {
-  padding: 5% 10%;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
+i{
+  color: rgba(0,0,0,.7);
+  font-size: 30px;
+  padding-top: 20px;
+  
+}
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  text-shadow: 1px 1px 	#404040;
+  padding-top: 8px; 
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
  
+}
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  text-shadow: 1px 1px 	#404040;
+  padding-top: 20px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+i:hover{
+  transform: scale(1.1);
+}
